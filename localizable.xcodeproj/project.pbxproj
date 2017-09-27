@@ -7,7 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		898665211F7AAEED001EDFAC /* IOSPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898665201F7AAEED001EDFAC /* IOSPlatform.swift */; };
 		89980BB31F79CBFD004966AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980BB21F79CBFD004966AB /* main.swift */; };
+		89980C2F1F7A9B12004966AB /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C061F7A9A85004966AB /* BinaryReader.swift */; };
+		89980C301F7A9B12004966AB /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C071F7A9A85004966AB /* CSV.swift */; };
+		89980C311F7A9B12004966AB /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C081F7A9A85004966AB /* CSVError.swift */; };
+		89980C321F7A9B12004966AB /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C091F7A9A85004966AB /* CSVReader.swift */; };
+		89980C331F7A9B12004966AB /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C0B1F7A9A85004966AB /* CSVWriter.swift */; };
+		89980C341F7A9B12004966AB /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C0C1F7A9A85004966AB /* Endian.swift */; };
+		89980C351F7A9B12004966AB /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C0E1F7A9A85004966AB /* UnicodeIterator.swift */; };
+		89980C521F7A9BFB004966AB /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C3A1F7A9BE0004966AB /* CommandLine.swift */; };
+		89980C531F7A9BFB004966AB /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C3C1F7A9BE0004966AB /* Option.swift */; };
+		89980C541F7A9BFB004966AB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C3D1F7A9BE0004966AB /* StringExtensions.swift */; };
+		89980C561F7AA650004966AB /* StringArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C551F7AA650004966AB /* StringArrayExt.swift */; };
+		89980C581F7AAA17004966AB /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C571F7AAA17004966AB /* LocalizationManager.swift */; };
+		89980C5A1F7AAD3A004966AB /* AndroidPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C591F7AAD3A004966AB /* AndroidPlatform.swift */; };
+		89980C5C1F7AAD5D004966AB /* LocalizationPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89980C5B1F7AAD5C004966AB /* LocalizationPlatform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +38,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		898665201F7AAEED001EDFAC /* IOSPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSPlatform.swift; sourceTree = "<group>"; };
 		89980BAF1F79CBFD004966AB /* localizable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = localizable; sourceTree = BUILT_PRODUCTS_DIR; };
 		89980BB21F79CBFD004966AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		89980C061F7A9A85004966AB /* BinaryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryReader.swift; sourceTree = "<group>"; };
+		89980C071F7A9A85004966AB /* CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		89980C081F7A9A85004966AB /* CSVError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVError.swift; sourceTree = "<group>"; };
+		89980C091F7A9A85004966AB /* CSVReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVReader.swift; sourceTree = "<group>"; };
+		89980C0B1F7A9A85004966AB /* CSVWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVWriter.swift; sourceTree = "<group>"; };
+		89980C0C1F7A9A85004966AB /* Endian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endian.swift; sourceTree = "<group>"; };
+		89980C0E1F7A9A85004966AB /* UnicodeIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeIterator.swift; sourceTree = "<group>"; };
+		89980C3A1F7A9BE0004966AB /* CommandLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
+		89980C3C1F7A9BE0004966AB /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		89980C3D1F7A9BE0004966AB /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		89980C551F7AA650004966AB /* StringArrayExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringArrayExt.swift; sourceTree = "<group>"; };
+		89980C571F7AAA17004966AB /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		89980C591F7AAD3A004966AB /* AndroidPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidPlatform.swift; sourceTree = "<group>"; };
+		89980C5B1F7AAD5C004966AB /* LocalizationPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationPlatform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +88,63 @@
 			isa = PBXGroup;
 			children = (
 				89980BB21F79CBFD004966AB /* main.swift */,
+				89980C551F7AA650004966AB /* StringArrayExt.swift */,
+				89980C571F7AAA17004966AB /* LocalizationManager.swift */,
+				89980C591F7AAD3A004966AB /* AndroidPlatform.swift */,
+				898665201F7AAEED001EDFAC /* IOSPlatform.swift */,
+				89980C5B1F7AAD5C004966AB /* LocalizationPlatform.swift */,
+				89980BF81F7A9A84004966AB /* External */,
 			);
 			path = localizable;
+			sourceTree = "<group>";
+		};
+		89980BF81F7A9A84004966AB /* External */ = {
+			isa = PBXGroup;
+			children = (
+				89980C361F7A9BE0004966AB /* CommandLine */,
+				89980BF91F7A9A84004966AB /* CSV */,
+			);
+			path = External;
+			sourceTree = SOURCE_ROOT;
+		};
+		89980BF91F7A9A84004966AB /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				89980C051F7A9A85004966AB /* Sources */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		89980C051F7A9A85004966AB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				89980C061F7A9A85004966AB /* BinaryReader.swift */,
+				89980C071F7A9A85004966AB /* CSV.swift */,
+				89980C081F7A9A85004966AB /* CSVError.swift */,
+				89980C091F7A9A85004966AB /* CSVReader.swift */,
+				89980C0B1F7A9A85004966AB /* CSVWriter.swift */,
+				89980C0C1F7A9A85004966AB /* Endian.swift */,
+				89980C0E1F7A9A85004966AB /* UnicodeIterator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		89980C361F7A9BE0004966AB /* CommandLine */ = {
+			isa = PBXGroup;
+			children = (
+				89980C391F7A9BE0004966AB /* CommandLineKit */,
+			);
+			path = CommandLine;
+			sourceTree = "<group>";
+		};
+		89980C391F7A9BE0004966AB /* CommandLineKit */ = {
+			isa = PBXGroup;
+			children = (
+				89980C3A1F7A9BE0004966AB /* CommandLine.swift */,
+				89980C3C1F7A9BE0004966AB /* Option.swift */,
+				89980C3D1F7A9BE0004966AB /* StringExtensions.swift */,
+			);
+			path = CommandLineKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +205,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89980C5A1F7AAD3A004966AB /* AndroidPlatform.swift in Sources */,
+				89980C321F7A9B12004966AB /* CSVReader.swift in Sources */,
+				89980C2F1F7A9B12004966AB /* BinaryReader.swift in Sources */,
+				89980C561F7AA650004966AB /* StringArrayExt.swift in Sources */,
+				89980C531F7A9BFB004966AB /* Option.swift in Sources */,
+				89980C331F7A9B12004966AB /* CSVWriter.swift in Sources */,
+				89980C5C1F7AAD5D004966AB /* LocalizationPlatform.swift in Sources */,
+				89980C301F7A9B12004966AB /* CSV.swift in Sources */,
+				89980C311F7A9B12004966AB /* CSVError.swift in Sources */,
+				89980C541F7A9BFB004966AB /* StringExtensions.swift in Sources */,
+				89980C581F7AAA17004966AB /* LocalizationManager.swift in Sources */,
 				89980BB31F79CBFD004966AB /* main.swift in Sources */,
+				898665211F7AAEED001EDFAC /* IOSPlatform.swift in Sources */,
+				89980C521F7A9BFB004966AB /* CommandLine.swift in Sources */,
+				89980C351F7A9B12004966AB /* UnicodeIterator.swift in Sources */,
+				89980C341F7A9B12004966AB /* Endian.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

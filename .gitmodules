@@ -1,0 +1,7 @@
+[submodule "External/CSV"]
+	path = External/CSV
+	url = https://github.com/yaslab/CSV.swift.git
+[submodule "External/CommandLine"]
+	path = External/CommandLine
+	url = https://github.com/pdesantis/CommandLine.git
+	branch = swift4
